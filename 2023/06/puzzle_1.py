@@ -11,14 +11,11 @@ class Race:
         p = 0
         for init_speed in range(1, self.time):
             max_distance = (self.time - init_speed) * init_speed
-            time_to_reach = max_distance / init_speed
-            record_beaten = (
-                max_distance > self.distance and init_speed + time_to_reach <= self.time
-            )
+            record_beaten = max_distance > self.distance
             print(
                 f"DEBUG - Race(t:{self.time}s, d:{self.distance}m).",
                 f"If pressed: {init_speed}s, starts with speed:{init_speed}m/s.",
-                f"Reaches {max_distance}m after remaining {time_to_reach}s. Beats record: {record_beaten}",
+                f"Reaches {max_distance}m at best. Beats record: {record_beaten}",
             )
             if record_beaten:
                 p += 1

@@ -10,8 +10,7 @@ class Race:
         p = 0
         for init_speed in range(1, self.time):
             max_distance = (self.time - init_speed) * init_speed
-            time_to_reach = max_distance / init_speed
-            if max_distance > self.distance and init_speed + time_to_reach <= self.time:
+            if max_distance > self.distance:
                 p += 1
             elif p > 0:
                 break
