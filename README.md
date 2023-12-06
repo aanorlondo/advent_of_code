@@ -20,7 +20,7 @@ Playing with ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&
 |04  |   1  |  32001      |  0:00:00.001325 |
 |    |   2  |  5037841    |  0:00:00.001537 |
 |05  |   1  |  214922730  |  0:00:00.000916 |
-|    |   2  |  148041808  |  0:17:38.677511 | 
+|    |   2  |  148041808  |  TIMEOUT (credits go to [Community](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)) | 
 |06  |   1  |  2344708    |  0:00:00.000976 |
 |    |   2  |  30125202   |  0:00:03.413922 |
 |07  |   1  |     |   |
