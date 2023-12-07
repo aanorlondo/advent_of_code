@@ -32,7 +32,7 @@ class Hand:
             case 4:
                 return 2  # One pair
             case 5:
-                return 1  # High hand
+                return 1  # High card
 
 
 def read_input(debug: bool) -> str:
