@@ -23,8 +23,8 @@ Playing with ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&
 |    |   2  |  148041808  |  TIMEOUT (credits go to [Community](https://www.reddit.com/r/adventofcode/comments/18b4b0r/2023_day_5_solutions/)) | 
 |06  |   1  |  2344708    |  0:00:00.000976 |
 |    |   2  |  30125202   |  0:00:02.079613 |
-|07  |   1  |  246912307  |  0:00:00.010708 |
-|    |   2  |  246894760  |  0:00:00.018616 |
+|07  |   1  |  246912307  |  0:00:00.003559 |
+|    |   2  |  246894760  |  0:00:00.003759 |
 |08  |   1  |     |   |
 |    |   2  |     |   |
 |09  |   1  |     |   |

@@ -50,8 +50,8 @@ def main(debug=False) -> None:
         hands.append(Hand(cards=cards, bid=bid))
     hands.sort(key=lambda x: (x.type, [STRENGTH.index(c) for c in x.sequence]))
     winnings = 0
-    for hand in hands:
-        winnings += hand.bid * (hands.index(hand) + 1)
+    for index, hand in enumerate(hands):
+        winnings += hand.bid * (index + 1)
     print(winnings)
 
 
