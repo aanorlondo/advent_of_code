@@ -3,7 +3,7 @@ import os, datetime
 
 def extrapolate(sequence: tuple) -> int:
     if sequence.count(0) == len(sequence):
-        return sequence[-1]
+        return 0
     diff = tuple(sequence[i + 1] - sequence[i] for i in range(len(sequence) - 1))
     return sequence[-1] + extrapolate(diff)
 
